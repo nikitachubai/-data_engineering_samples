@@ -1,0 +1,16 @@
+version: '1'
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: intern
+      POSTGRES_PASSWORD: intern12345678
+      POSTGRES_DB: mydatabase_datalern
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql  # Добавляем дамп базы данных
+volumes:
+  db-data:
