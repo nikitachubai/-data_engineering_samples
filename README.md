@@ -1,5 +1,3 @@
-My project is an educational project that I modified from the [Data Learn](https://github.com/Data-Learn/data-engineering) of the lessons.
+My projects is an educational project that I modified from [Data Learn](https://github.com/Data-Learn/data-engineering) lessons and will update from other open source education courses when possible.
 
-Our task is to create your own Git repository, where you can store your work, and we can then check it after completing the course.
-
-Where we implemented a test project for an Internet site with sales and their analytics in the form of a dashboard.
+My main task is to create my own Git repository where I can store my works and projects, and colleagues, friends and other interested parties can view them.
